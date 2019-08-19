@@ -19,7 +19,7 @@ const Released = () => {
   }, [])
 
   return (
-    <h2>{didItDrop}</h2>
+    <div className='response'>{didItDrop}</div>
   )
 }
 

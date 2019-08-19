@@ -6,6 +6,10 @@
   justify-content: center;
   color: antiquewhite;
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
 }
 
 html,body{
@@ -18,3 +22,6 @@ body{
   width:100%
 }
 
+.response{
+  font-size: 5em
+}

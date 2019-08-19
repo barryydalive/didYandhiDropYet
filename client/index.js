@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className={'main'}>
       <h1>Did Yandhi Drop Yet?</h1>
-      <Released></Released>
+      <Released />
 
     </div>
   )
