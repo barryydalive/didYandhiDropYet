@@ -11,7 +11,6 @@ const Released = () => {
 
     const getData = async () => {
       const { data, } = await axios.get('/api/didYandhiDrop')
-      console.log('data:', data)
       if (data.results.filter(checkIfYandhi).length) { setDidItDrop('YES!!!') }
     }
 
